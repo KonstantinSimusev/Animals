@@ -364,13 +364,7 @@
                             <constraint firstItem="o2x-FH-NsP" firstAttribute="width" secondItem="Kwp-Md-M9V" secondAttribute="height" multiplier="45:463" id="xeh-Ly-W34"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="8ZZ-me-9NO">
-                        <barButtonItem key="rightBarButtonItem" image="arrowshape.turn.up.right" catalog="system" id="gfr-HU-pMG">
-                            <connections>
-                                <segue destination="Opi-LO-yyc" kind="show" id="Ljt-6z-SzR"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="8ZZ-me-9NO"/>
                     <connections>
                         <outlet property="multipleButton" destination="aAH-PU-l74" id="2E0-y9-zYb"/>
                         <outlet property="multipleStackView" destination="K8r-rX-1gj" id="R7I-e8-bLE"/>
@@ -488,11 +482,7 @@
             <point key="canvasLocation" x="864" y="65"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="iKO-WL-qNe"/>
-    </inferredMetricsTieBreakers>
     <resources>
-        <image name="arrowshape.turn.up.right" catalog="system" width="128" height="106"/>
         <systemColor name="systemMintColor">
             <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
